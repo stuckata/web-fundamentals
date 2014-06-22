@@ -1,0 +1,109 @@
+@CHARSET "UTF-8";
+
+body {
+	font-size: 18px;
+	font-family: arial;
+}
+
+h1 {
+	margin: 15px;
+}
+
+h2 {
+	margin: 15px;
+}
+
+div {
+	padding-left: 15px;
+	padding-right: 15px;
+	padding-top: 10px;
+}
+
+a {
+	float: right;
+	font-size: 14px;
+	margin-top: -10px;
+	color: white;
+}
+
+.submit-data {
+	float: right;
+	border: 3px solid;
+}
+
+#new-submit {
+	border-color: #234465;
+	color: #234465;
+	background-color: #EEEEEE;
+	width: 200px;
+	height: 50px;
+	font-size: 20px;
+	margin-right: -20px;
+}
+
+#submit {
+	border-color: orange;
+	color: white;
+	background-color: #234465;
+	width: 160px;
+	height: 50px;
+	font-size: 20px;
+	margin-right: -20px;
+}
+
+.title-header {
+	color: #234465;
+}
+
+.form-header {
+	text-transform: uppercase;
+	font-size: 20px;
+}
+
+.gray-colored-text {
+	color: gray;
+}
+
+.blue-colored-text {
+	color: #234465;
+}
+
+.form-size {
+	width: 400px;
+	height: 320px;
+}
+
+.input-data {
+	width: 100%;
+	height: 30px;
+	margin-top: 15px;
+}
+
+#template-login {
+	background-color: #234465;
+	color: white;
+	position: relative;
+	left: 440px;
+	bottom: 319px;
+}
+
+#template-new-student {
+	position: relative;
+	top: 10px;
+}
+
+#form-template {
+	width: 880px;
+	height: 500px;
+	background-color: #EEEEEE;
+}
+
+#remember-checkbox-font {
+	font-size: 11px;
+	position: relative;
+	top: -2px;
+}
+
+#remember-checkbox-input {
+	margin-top: 10px;
+}

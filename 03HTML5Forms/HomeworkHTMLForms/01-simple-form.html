@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Simple Form</title>
+<link rel="stylesheet" type="text/css" href="01-simple-form-style.css">
+</head>
+<body>
+	<div id="form-template">
+		<h1 id="header" class="title-header">Enter the system</h1>
+		<p>It is necessary to login in Your account in order to sign in
+			for a course.</p>
+		<div id="template-new-student" class="form-size">
+			<h2 id="new-student" class="form-header">
+				<span class="gray-colored-text">Are You new?</span> <span
+					class="blue-colored-text">Register</span>
+			</h2>
+			<form method="get">
+				<input class="input-data" type="text" name="newUserName"
+					maxlength="100" required="required" placeholder="User name"
+					tabindex="0"> <input class="input-data" type="email"
+					name="newEmail" maxlength="100" required="required"
+					placeholder="Email" tabindex="1"> <input class="input-data"
+					type="password" name="newPassword" required="required"
+					maxlength="100" placeholder="Password" tabindex="2"> <input
+					type="password" class="input-data" name="confirmNewPassword"
+					maxlength="100" required="required" placeholder="Confirm password"
+					tabindex="3">
+				<div>
+					<input type="submit" class="submit-data" id="new-submit"
+						name="newSubmit" value="Register" tabindex="4">
+				</div>
+			</form>
+		</div>
+		<div id="template-login" class="form-size">
+			<h2 id="login" class="form-header">Already a student? Login</h2>
+			<form method="get">
+				<input type="text" class="input-data" name="userName"
+					maxlength="100" required="required" placeholder="User name"
+					autofocus="autofocus"> <input type="password"
+					id="input-password" class="input-data" name="password"
+					maxlength="100" required="required" placeholder="Password">
+				<input type="checkbox" name="rememberMe"
+					id="remember-checkbox-input"> <span
+					id="remember-checkbox-font"><label
+					for="remember-checkbox-input">Remember me?</label></span>
+				<div>
+					<input type="submit" class="submit-data" id="submit" name="submit"
+						value="Login">
+				</div>
+				<br /> <br /> <br /> <a
+					href="https://softuni.bg/account/forgottenpassword" target="_blank">Forgot
+					Password</a>
+			</form>
+		</div>
+	</div>
+</body>
+</html>
