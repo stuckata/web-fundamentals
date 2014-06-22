@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Flight Order</title>
+<link rel="stylesheet" type="text/css" href="02-flight-order-style.css">
+</head>
+<body>
+	<form method="get">
+		<h1>
+			<i>Flight Order</i>
+		</h1>
+		<div class="left-side-div">
+			<label for="city-of-departure"><i>From </i></label><select
+				name="cityOfDeparture" id="city-of-departure" required="required">
+				<option value="" selected="selected">enter a city</option>
+				<option value="2">Sofia, Bulgaria</option>
+				<option value="3">Varna, Bulgaria</option>
+				<option value="4">Plovdiv, Bulgaria</option>
+			</select>
+		</div>
+		<div class="right-side-div">
+			<label for="city-of-arrival"><i>To </i></label><select
+				name="cityOfArrival" id="city-of-arrival" required="required">
+				<option value="" selected="selected">enter a city</option>
+				<option value="102">Berlin, Germany</option>
+				<option value="103">London, UK</option>
+				<option value="104">Barcelona, Spain</option>
+			</select>
+		</div>
+		<div class="right-side-div" id="checkbox-div">
+			<input type="checkbox" id="check-direct-flights"><label
+				for="check-direct-flights" style="display: inline;"><i>Prefer
+					directs</i></label>
+		</div>
+		<div class="left-side-div">
+			<label><i>Departure date </i></label><input name="departureDate"
+				type="date" value="2014-06-09" class="long-form">
+		</div>
+		<div class="right-side-div">
+			<label><i>Time Interval </i></label> <input name="startDepTime"
+				type="time" value="00:20" class="time-interval-form">
+
+			<input name="endDepTime" type="time" value="05:00"
+				class="time-interval-form">
+
+		</div>
+		<div class="left-side-div">
+			<label><i>Return date </i></label><input name="returnDate"
+				type="date" value="2014-06-13" class="long-form">
+		</div>
+		<div class="right-side-div">
+			<label><i>Time Interval </i></label><input name="startRetTime"
+				type="time" value="16:00" class="time-interval-form">
+
+			<input name="endRetTime" type="time" value="22:00"
+				class="time-interval-form">
+		</div>
+		<div class="left-side-div" id="number-of-passengers-div">
+			<div>
+				<label class="num-pass-lable"><i>12+ </i></label><input
+					name="olderThanTwelve" type="number" value="0" class="short-form">
+			</div>
+			<div>
+				<label class="num-pass-lable"><i>2-12 </i></label><input
+					name="youngerThanTwelve" type="number" value="0" class="short-form">
+			</div>
+			<div>
+				<label class="num-pass-lable"><i>0-2 </i></label><input
+					name="youngerThanTwo" type="number" value="0" class="short-form">
+			</div>
+		</div>
+		<div class="right-side-div">
+			<label><i>Choose class </i></label><select name="chooseClass"
+				id="choose-class" required="required"><option value=""
+					selected="selected">Economy</option>
+				<option value="202">First Class</option>
+				<option value="203">Business</option></select>
+		</div>
+		<div class="right-side-div">
+			<input name="submitSearch" type="submit" id="submit-search"
+				value="Search">
+		</div>
+	</form>
+</body>
+</html>

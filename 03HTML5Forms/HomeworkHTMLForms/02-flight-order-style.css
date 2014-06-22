@@ -1,0 +1,82 @@
+@CHARSET "UTF-8";
+
+body {
+	font-family: sans-serif;
+}
+
+h1 {
+	text-align: center;
+	text-transform: uppercase;
+	padding-top: 10px;
+	margin-bottom: 10px;
+}
+
+form {
+	width: 480px;
+	height: 340px;
+	background-color: #FFC0CB;
+}
+
+label {
+	display: block;
+	font-size: 14px;
+}
+
+div {
+	display: inline-block;
+}
+
+.long-form {
+	width: 195px;
+	height: 20px;
+	margin-bottom: 20px;
+}
+
+.time-interval-form {
+	width: 93px;
+	height: 20px;
+	margin-bottom: 20px;
+}
+
+.short-form {
+	width: 60px;
+	height: 20px;
+	margin-bottom: 20px;
+}
+
+.left-side-div {
+	float: left;
+	padding-left: 15px;
+}
+
+.right-side-div {
+	float: right;
+	padding-right: 15px;
+}
+
+#city-of-departure {
+	width: 200px;
+	height: 25px;
+	margin-bottom: 25px;
+}
+
+#city-of-arrival {
+	width: 200px;
+	height: 25px;
+}
+
+#choose-class {
+	width: 200px;
+	height: 25px;
+	margin-bottom: 10px;
+}
+
+#checkbox-div {
+	padding-top: 5px;
+	padding-right: 100px;
+}
+
+#submit-search {
+	width: 200px;
+	height: 30px;
+}
