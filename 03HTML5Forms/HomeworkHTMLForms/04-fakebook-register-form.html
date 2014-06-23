@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Fakebook register form</title>
+<link rel="stylesheet" type="text/css"
+	href="04-fakebook-register-form.css">
+</head>
+<body>
+	<form method="get">
+		<div>
+			<h1>
+				fakebook<span id="cr-symbol">&reg;</span>
+			</h1>
+			<h2>Registration</h2>
+			<h3>It is safe and it will always be!</h3>
+		</div>
+		<div>
+			<div id="none-important-div">
+				<fieldset style="width: 280px;">
+					<legend>None-important information</legend>
+					<div>
+						<div>
+							<input name="firstName" type="text" autofocus="autofocus"
+								placeholder=" First Name" class="long-input-style">
+						</div>
+						<div>
+							<input name="lastName" type="text" placeholder=" Last Name"
+								class="long-input-style">
+						</div>
+					</div>
+					<div>
+						<div>
+							<input name="eMail" type="email" placeholder=" Your Email"
+								class="long-input-style">
+						</div>
+						<div>
+							<input name="phoneNumber" type="tel" placeholder=" Phone Number"
+								class="long-input-style">
+						</div>
+					</div>
+					<div>
+						<div>
+							<input name="pass" type="password" placeholder=" Your Password"
+								class="long-input-style">
+						</div>
+						<div>
+							<input name="website" type="url" placeholder=" Website"
+								class="long-input-style">
+						</div>
+					</div>
+					<div>
+						<label for="bd" class="left-label">Birthday </label><input
+							name="birthdate" type="datetime-local" id="bd"
+							class="very-long-input-style">
+					</div>
+					<br> <br>
+					<div id="gender-div">
+						<div>
+							<input name="gender" type="radio"><label> Female</label>
+						</div>
+						<div>
+							<input name="gender" type="radio"><label> Male</label>
+						</div>
+						<div>
+							<input name="gender" type="radio"><label> Other</label>
+						</div>
+					</div>
+				</fieldset>
+			</div>
+			<div id="important-div">
+				<fieldset style="width: 430px; text-align: left;">
+					<legend style="text-align: center;">Important information
+						*required</legend>
+					<div>
+						<div>
+							<select name="country" class="long-select" required="required">
+								<option value="">Country</option>
+								<option value="1">Bulgaria</option>
+								<option value="2">Brazil</option>
+								<option value="3">Germany</option>
+								<option value="4">UK</option>
+							</select>
+						</div>
+						<div>
+							<input name="village" type="text" placeholder=" Village"
+								class="long-input-style" required="required">
+						</div>
+						<div>
+							<input name="district" type="text" placeholder=" District"
+								class="long-input-style" required="required">
+						</div>
+					</div>
+					<div>
+						<div>
+							<input name="street" type="text" placeholder=" Street"
+								class="long-input-style" required="required">
+						</div>
+						<div>
+							<input name="number" type="text" placeholder=" Nr"
+								class="short-input-style" required="required">
+						</div>
+						<div>
+							<input name="floor" type="text" placeholder=" Floor"
+								class="short-input-style" required="required">
+						</div>
+						<div>
+							<input name="apNr" type="text" placeholder=" Ap Nr"
+								class="short-input-style" required="required">
+						</div>
+					</div>
+					<div>
+						<div>
+							<label for="door" class="left-label">Door&nbsp;Color </label><input
+								name="doorColor" type="color" class="long-color-style" id="door"
+								value="#FF80C0">
+						</div>
+						<div>
+							<input name="waterMeter" type="text"
+								placeholder=" Water Meter Nr" class="long-input-style"
+								required="required">
+						</div>
+						<div>
+							<select name="pantiesSize" class="long-select"
+								required="required">
+								<option value="">Aunt Panties' Size</option>
+								<option value="101">30</option>
+								<option value="102">35</option>
+								<option value="103">40</option>
+								<option value="104">45</option>
+							</select>
+						</div>
+					</div>
+					<div>
+						<label for="more-info" class="left-label">More&nbsp;Personal&nbsp;Information</label>
+						<textarea name="moreInfo" rows="3" cols="50" id="more-info"
+							placeholder="Give Us More Information!!!"></textarea>
+					</div>
+				</fieldset>
+			</div>
+		</div>
+		<div id="clear-form-div">
+			<input name="clearForm" type="reset" value="Clear Form"
+				id="clear-form">
+		</div>
+		<div id="submit-form-div">
+			<input name="submitForm" type="submit" value="Register"
+				id="submit-form">
+		</div>
+	</form>
+</body>
+</html>
