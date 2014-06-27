@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Kent's Media Profile</title>
+<style type="text/css">
+section {
+	display: inline-table;
+}
+
+h1 {
+	text-align: center;
+	font-size: 50px;
+}
+
+meter {
+	width: 280px;
+}
+
+#left-section #center-section #right-section {
+	display: table-cell;
+}
+
+#center-section {
+	width: 300px;
+}
+
+#audio-header {
+	height: 200px;
+	background-color: black;
+	margin-bottom: 5px;
+	margin-right: 10px;
+}
+
+#container {
+	background-color: #FFC0CB;
+	padding: 20px;
+	border-radius: 0.5em;
+}
+</style>
+</head>
+
+<body>
+
+	<section id="container">
+		<header>
+			<h1>Profile</h1>
+		</header>
+
+		<section id="left-section">
+			<h2>User: Kent</h2>
+			<figure>
+				<img alt="Profile picture" src="kent-pic.png">
+				<figcaption>
+					<p>Profile completed 60%</p>
+					<meter value="0.6"></meter>
+				</figcaption>
+			</figure>
+		</section>
+
+		<section id="center-section">
+			<h2>Uploaded Audio Files</h2>
+			<div id="audio-header">
+				<audio style="vertical-align: center;" controls="controls"
+					src="http://www.freesfx.co.uk/rx2/mp3s/10/11497_1403568038.mp3"></audio>
+			</div>
+			<audio controls="controls"
+				src="http://www.freesfx.co.uk/rx2/mp3s/10/11497_1403568038.mp3"></audio>
+			<audio controls="controls"
+				src="http://www.freesfx.co.uk/rx2/mp3s/10/11497_1403568038.mp3"></audio>
+			<audio controls="controls"
+				src="http://www.freesfx.co.uk/rx2/mp3s/10/11497_1403568038.mp3"></audio>
+		</section>
+
+		<section id="right-section">
+			<h2>Uploaded Video Files</h2>
+			<video controls="controls"
+				src="https://ia700409.us.archive.org/17/items/creaturefromthehauntedsea_1961/CreaturefromtheHauntedSea.ogv"></video>
+		</section>
+	</section>
+
+</body>
+</html>
