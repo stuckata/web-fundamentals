@@ -1,0 +1,180 @@
+@CHARSET "UTF-8";
+
+body,section,table,tr,td,form {
+	margin: 0;
+	padding: 0;
+	font-family: Calibri;
+}
+
+section {
+	background-color: #00923E;
+	padding: 10pt;
+	width: 650pt;
+	height: 240pt;
+	text-align: center;
+}
+
+table {
+	border: 2pt solid black;
+	background-color: white;
+	border-radius: 1em;
+	border-spacing: 0;
+	width: 100%;
+	height: 100%;
+	font-size: 11pt;
+	font-weight: bold;
+	border-spacing: 0;
+}
+
+td,th {
+	border: 1pt solid black;
+	padding: 5pt;
+}
+
+th {
+	background-color: #F8C711;
+	font-size: 18pt;
+}
+
+select {
+	width: 25pt;
+	height: 25pt;
+}
+
+table th:nth-child(1) {
+	border-top-left-radius: 0.5em;
+	text-align: right;
+}
+
+table th:nth-child(3) {
+	text-align: left;
+}
+
+table th:nth-child(5) {
+	border-top-right-radius: 0.5em;
+}
+
+table td:nth-child(1) {
+	width: 100pt;
+	text-align: right;
+}
+
+table td:nth-child(3) {
+	width: 100pt;
+	text-align: left;
+}
+
+table td:nth-child(5) {
+	width: 78pt;
+	text-align: right;
+}
+
+table td:nth-child(7) {
+	width: 78pt;
+	text-align: left;
+}
+
+table td:nth-child(even) {
+	text-align: center;
+}
+
+table tr:nth-child(odd) {
+	background-color: #C8C8C8;
+}
+
+.ft-select {
+	color: red;
+	background-color: #DCDCDC;
+}
+
+.pending-select {
+	color: green;
+}
+
+table tr:nth-child(2) td:nth-child(1) div.nat-flag {
+	content: url(images/brasil.png);
+	float: right;
+	margin-left: 2pt;
+}
+
+table tr:nth-child(2) td:nth-child(3) div.nat-flag {
+	content: url(images/mexico.png);
+	float: left;
+	margin-right: 2pt;
+}
+
+table tr:nth-child(3) td:nth-child(1) div.nat-flag {
+	content: url(images/spain.png);
+	float: right;
+	margin-left: 2pt;
+}
+
+table tr:nth-child(3) td:nth-child(3) div.nat-flag {
+	content: url(images/netherlands.png);
+	float: left;
+	margin-right: 2pt;
+}
+
+table tr:nth-child(4) td:nth-child(1) div.nat-flag {
+	content: url(images/italy.png);
+	float: right;
+	margin-left: 2pt;
+}
+
+table tr:nth-child(4) td:nth-child(3) div.nat-flag {
+	content: url(images/england.png);
+	float: left;
+	margin-right: 2pt;
+}
+
+table tr:nth-child(5) td:nth-child(1) div.nat-flag {
+	content: url(images/argentina.png);
+	float: right;
+	margin-left: 2pt;
+}
+
+table tr:nth-child(5) td:nth-child(3) div.nat-flag {
+	content: url(images/bosnia-herz.png);
+	float: left;
+	margin-right: 2pt;
+}
+
+table tr:nth-child(6) td:nth-child(1) div.nat-flag {
+	content: url(images/germany.png);
+	float: right;
+	margin-left: 2pt;
+}
+
+table tr:nth-child(6) td:nth-child(3) div.nat-flag {
+	content: url(images/portugal.png);
+	float: left;
+	margin-right: 2pt;
+}
+
+table tr:nth-child(6) td:nth-child(1) {
+	border-bottom-left-radius: 0.8em;
+}
+
+table tr:nth-child(6) td:nth-child(8) {
+	border-bottom-right-radius: 0.8em;
+}
+
+table td:nth-child(8) {
+	padding: 2pt;
+}
+
+input.end-bet {
+	background: url("images/red-bet.png");
+	width: 34pt;
+	height: 34pt;
+	background-repeat:no-repeat;
+	border: none;
+}
+
+input.pending-bet {
+	background: url("images/green-bet.png");
+	width: 34pt;
+	height: 34pt;
+	background-repeat:no-repeat;
+	border: none;
+}
