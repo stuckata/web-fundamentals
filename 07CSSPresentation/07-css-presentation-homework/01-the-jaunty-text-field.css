@@ -1,0 +1,153 @@
+@CHARSET "UTF-8";
+
+body,div,section,h1 {
+	margin: 0;
+	padding: 0;
+	font-family: Calibri;
+}
+
+#field {
+	margin-left: 50pt;
+	margin-top: 50pt;
+}
+
+section {
+	margin-left: 20pt;
+	margin-top: 20pt;
+	border-style: dotted solid double dashed;
+	border-width: thick 10pt 7pt thick;
+	border-color: yellow green blue red;
+	width: 600pt;
+	box-shadow: 20pt 20pt 15pt black;
+}
+
+.container {
+	text-align: center;
+	margin: 20pt;
+	border-style: solid;
+	border: solid 3pt blue;
+	border-radius: 30em;
+	height: 30%;
+}
+
+.green {
+	border: solid 3pt green;
+	border-radius: 30em;
+}
+
+.yellow {
+	border: solid 3pt yellow;
+	border-radius: 30em;
+}
+
+.red {
+	padding: 10pt;
+	border: solid 3pt red;
+	border-radius: 30em;
+	text-align: center;
+}
+
+h1 {
+	text-transform: uppercase;
+	font-size: 50pt;
+	font-weight: normal;
+	text-align: center;
+	margin-bottom: 20pt;
+	text-shadow: 12pt 12pt 15pt #828282;
+}
+
+.button-like {
+	width: 30%;
+	height: 22pt;
+	margin: 10pt;
+	display: inline-block;
+	border: solid 2pt #FFA100;
+	background-color: #D8921A;
+	text-align: center;
+	font-weight: bold;
+	font-size: 16pt;
+}
+
+p {
+	font-size: 20pt;
+	text-align: center;
+	margin: 0;
+	text-shadow: 6pt 6pt 10pt #828282;
+}
+
+#first-bubble {
+	width: 14pt;
+	height: 14pt;
+	background-color: rgba(130, 130, 130, 0.6);
+	padding: 5pt;
+	border-radius: 3em;
+	position: absolute;
+	top: 175pt;
+	left: 525pt;
+	padding: 5pt;
+}
+
+#first-dash-circle {
+	width: 12pt;
+	height: 12pt;
+	border-color: white;
+	border-style: dashed;
+	border-width: 2pt;
+	margin: 0;
+	border-radius: 3em;
+}
+
+#second-bubble {
+	width: 30pt;
+	height: 30pt;
+	background-color: rgba(130, 130, 130, 0.6);
+	padding: 5pt;
+	border-radius: 3em;
+	position: absolute;
+	top: 130pt;
+	left: 580pt;
+}
+
+#second-dash-circle {
+	width: 27pt;
+	height: 27pt;
+	border-color: white;
+	border-style: dashed;
+	border-width: 2pt;
+	margin: 0;
+	border-radius: 3em;
+	border-style: dashed;
+}
+
+#ellipse {
+	width: 100pt;
+	height: 60pt;
+	background-color: rgba(130, 130, 130, 0.6);
+	padding: 5pt;
+	border-radius: 3em;
+	position: absolute;
+	top: 70pt;
+	left: 643pt;
+}
+
+#ellipse-dashes {
+	color: white;
+	font-size: 17pt;
+	font-weight: bold;
+	width: 95pt;
+	height: 55pt;
+	border-color: white;
+	border-style: dashed;
+	border-width: 2pt;
+	margin: 0;
+	border-radius: 3em;
+	text-align: center;
+	width: 95pt;
+	border-radius: 3em;
+	width: 95pt;
+}
+
+.text-field {
+	margin: 10pt;
+	margin-top: 5pt;
+}
